@@ -1,16 +1,15 @@
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <!DOCTYPE struts PUBLIC  
     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
     "http://struts.apache.org/dtds/struts-2.0.dtd">  
 <struts>  
-    <package name="holastruts2" extends="struts-default">  
-        <action name="HolaStruts" class="controlador.HolaStruts">  
-            <result>/mensaje.jsp</result>  
+    <!--constant me detalla los errores  -->
+    <constant name="resources" value="ApplicationResources" />
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.convention.package.locators" value="controller"/>
+    
+    <package name="default" extends="struts-default" namespace="">  
+        <action name="HolaStruts" class="Controller.HolaStruts"> 
+        <result name="SUCCESS">/mensaje.jsp</result>  
         </action>  
     </package>  
 </struts>
-

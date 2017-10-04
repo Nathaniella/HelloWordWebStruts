@@ -5,13 +5,13 @@
 --%>
 <%@ taglib prefix="s" uri="/struts-tags" %>  
 <%@page contentType="text/html" pageEncoding="UTF-8"%>  
-<!DOCTYPE html>  
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
 <html>  
     <head>  
         <title><s:property value="mensaje.mensaje" /></title>  
     </head>  
     <body>  
-        <h1><s:property value="mensaje.mensaje" /></h1>  
+        <h1>El nombre es: <s:property value="mensaje.mensaje" /></h1>  
     </body>  
 </html>
- 
+

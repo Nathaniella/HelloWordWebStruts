@@ -1,17 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Controller;
+package Controller; 
+ 
 import com.opensymphony.xwork2.ActionSupport; 
 import Models.Mensaje; 
-/**
- *
- * @author aplicaciones
- */
-public class HolaStruts extends ActionSupport{
-    private Mensaje mensaje; 
+ 
+public class HolaStruts extends ActionSupport { 
+ 
+    private Mensaje mensaje;
+    public static final String SUCCESS = "success";
  
     @Override 
     public String execute() { 
