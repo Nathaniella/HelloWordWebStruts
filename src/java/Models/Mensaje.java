@@ -1,5 +1,6 @@
+
 package Models; 
- 
+
 /**
  *
  * @author aplicaciones
@@ -12,6 +13,10 @@ public class Mensaje {
     } 
  
     public void setMensaje(String mensaje) { 
-        this.mensaje = mensaje; 
+        this.mensaje = this.mensaje; 
     } 
+     public String toString() { 
+       return mensaje; 
+    } 
+   
 }

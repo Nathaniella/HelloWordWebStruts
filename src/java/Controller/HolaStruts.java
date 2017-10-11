@@ -6,7 +6,7 @@ import Models.Mensaje;
 public class HolaStruts extends ActionSupport { 
  
     private Mensaje mensaje;
-    public static final String SUCCESS = "success";
+   // public static final String SUCCESS = "success";
  
     @Override 
     public String execute() { 
